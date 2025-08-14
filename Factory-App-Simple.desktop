@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Factory Management App (Simple)
+Comment=Start Factory Management MERN Application (Shell Script)
+Exec=bash -c "cd '/home/ahtsham/factory v.2' && source ./setup-env.sh && ./start-app.sh"
+Icon=application-x-executable
+Terminal=true
+StartupNotify=true
+Categories=Development;Office;
+Path=/home/ahtsham/factory v.2

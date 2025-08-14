@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Factory Management App (Terminal)
+Comment=Start Factory Management MERN Application in Terminal
+Exec=gnome-terminal --working-directory="/home/ahtsham/factory v.2" -- bash -c "source ./setup-env.sh; ./start-app.sh; read -p 'Press Enter to close...'"
+Icon=utilities-terminal
+Terminal=false
+StartupNotify=true
+Categories=Development;Office;
+Path=/home/ahtsham/factory v.2
+StartupWMClass=gnome-terminal-server

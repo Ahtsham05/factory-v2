@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Test Node Environment
+Comment=Test Node.js environment from desktop
+Exec=gnome-terminal --working-directory="/home/ahtsham/factory v.2" -- bash -c "source ~/.bashrc; source ~/.profile 2>/dev/null; ./test-node-env.sh"
+Icon=utilities-terminal
+Terminal=false
+StartupNotify=true
+Categories=Development;
+Path=/home/ahtsham/factory v.2

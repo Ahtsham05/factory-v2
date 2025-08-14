@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Factory Management App (Enhanced GUI)
+Comment=Start Factory Management MERN Application with Enhanced Python GUI
+Exec=bash -c "cd '/home/ahtsham/factory v.2' && source ./setup-env.sh && python3 factory-gui-launcher.py"
+Icon=application-x-executable
+Terminal=false
+StartupNotify=true
+Categories=Development;Office;
+Path=/home/ahtsham/factory v.2
